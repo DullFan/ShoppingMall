@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AStudyData/AndroidStudioProjects/ShoppingMall/app/src/main/res/drawable/add_address_frame_text_background.xml" value="0.189" />
+        <entry key="..\:/AStudyData/AndroidStudioProjects/ShoppingMall/app/src/main/res/drawable/address_frame_text_background.xml" value="0.189" />
+        <entry key="..\:/AStudyData/AndroidStudioProjects/ShoppingMall/app/src/main/res/drawable/bg_web_bar.xml" value="0.218" />
+        <entry key="..\:/AStudyData/AndroidStudioProjects/ShoppingMall/app/src/main/res/drawable/car_frame_text_background.xml" value="0.2085" />
+        <entry key="..\:/AStudyData/AndroidStudioProjects/ShoppingMall/app/src/main/res/drawable/dialog_frame_text_background.xml" value="0.218" />
+        <entry key="..\:/AStudyData/AndroidStudioProjects/ShoppingMall/app/src/main/res/drawable/order_frame_text_background.xml" value="0.1835" />
+        <entry key="..\:/AStudyData/AndroidStudioProjects/ShoppingMall/app/src/main/res/drawable/order_select_frame_text_background.xml" value="0.1835" />
+        <entry key="..\:/AStudyData/AndroidStudioProjects/ShoppingMall/app/src/main/res/layout/activity_add_address.xml" value="0.176" />
+        <entry key="..\:/AStudyData/AndroidStudioProjects/ShoppingMall/app/src/main/res/layout/activity_address.xml" value="0.24947916666666667" />
+        <entry key="..\:/AStudyData/AndroidStudioProjects/ShoppingMall/app/src/main/res/layout/activity_goods_details.xml" value="0.2" />
+        <entry key="..\:/AStudyData/AndroidStudioProjects/ShoppingMall/app/src/main/res/layout/activity_guide.xml" value="0.24947916666666667" />
+        <entry key="..\:/AStudyData/AndroidStudioProjects/ShoppingMall/app/src/main/res/layout/activity_info.xml" value="0.24947916666666667" />
+        <entry key="..\:/AStudyData/AndroidStudioProjects/ShoppingMall/app/src/main/res/layout/activity_login.xml" value="0.24947916666666667" />
+        <entry key="..\:/AStudyData/AndroidStudioProjects/ShoppingMall/app/src/main/res/layout/activity_main.xml" value="0.24947916666666667" />
+        <entry key="..\:/AStudyData/AndroidStudioProjects/ShoppingMall/app/src/main/res/layout/activity_order.xml" value="0.24947916666666667" />
+        <entry key="..\:/AStudyData/AndroidStudioProjects/ShoppingMall/app/src/main/res/layout/activity_put_address.xml" value="0.23489583333333333" />
+        <entry key="..\:/AStudyData/AndroidStudioProjects/ShoppingMall/app/src/main/res/layout/activity_retrieve_password_fragment.xml" value="0.24947916666666667" />
+        <entry key="..\:/AStudyData/AndroidStudioProjects/ShoppingMall/app/src/main/res/layout/activity_search.xml" value="0.24947916666666667" />
+        <entry key="..\:/AStudyData/AndroidStudioProjects/ShoppingMall/app/src/main/res/layout/activity_skin.xml" value="0.24947916666666667" />
+        <entry key="..\:/AStudyData/AndroidStudioProjects/ShoppingMall/app/src/main/res/layout/activity_submit_order.xml" value="0.3847045191193511" />
+        <entry key="..\:/AStudyData/AndroidStudioProjects/ShoppingMall/app/src/main/res/layout/activity_web_url.xml" value="0.24960917144346015" />
+        <entry key="..\:/AStudyData/AndroidStudioProjects/ShoppingMall/app/src/main/res/layout/dialog_add_car_layout.xml" value="0.264" />
+        <entry key="..\:/AStudyData/AndroidStudioProjects/ShoppingMall/app/src/main/res/layout/footer_item.xml" value="0.2484375" />
+        <entry key="..\:/AStudyData/AndroidStudioProjects/ShoppingMall/app/src/main/res/layout/fragment_car.xml" value="0.31205211726384363" />
+        <entry key="..\:/AStudyData/AndroidStudioProjects/ShoppingMall/app/src/main/res/layout/fragment_guide_pages.xml" value="0.24947916666666667" />
+        <entry key="..\:/AStudyData/AndroidStudioProjects/ShoppingMall/app/src/main/res/layout/fragment_home.xml" value="0.24947916666666667" />
+        <entry key="..\:/AStudyData/AndroidStudioProjects/ShoppingMall/app/src/main/res/layout/fragment_login.xml" value="0.24947916666666667" />
+        <entry key="..\:/AStudyData/AndroidStudioProjects/ShoppingMall/app/src/main/res/layout/fragment_my.xml" value="0.24947916666666667" />
+        <entry key="..\:/AStudyData/AndroidStudioProjects/ShoppingMall/app/src/main/res/layout/fragment_register.xml" value="0.24947916666666667" />
+        <entry key="..\:/AStudyData/AndroidStudioProjects/ShoppingMall/app/src/main/res/layout/fragment_retrieve_password.xml" value="0.4" />
+        <entry key="..\:/AStudyData/AndroidStudioProjects/ShoppingMall/app/src/main/res/layout/fragment_type.xml" value="0.24947916666666667" />
+        <entry key="..\:/AStudyData/AndroidStudioProjects/ShoppingMall/app/src/main/res/layout/item_address_rv_layout.xml" value="0.3847045191193511" />
+        <entry key="..\:/AStudyData/AndroidStudioProjects/ShoppingMall/app/src/main/res/layout/item_car_rv_layout.xml" value="0.4" />
+        <entry key="..\:/AStudyData/AndroidStudioProjects/ShoppingMall/app/src/main/res/layout/item_guide_banner_layout.xml" value="0.24947916666666667" />
+        <entry key="..\:/AStudyData/AndroidStudioProjects/ShoppingMall/app/src/main/res/layout/item_guide_vp2_layout.xml" value="0.264" />
+        <entry key="..\:/AStudyData/AndroidStudioProjects/ShoppingMall/app/src/main/res/layout/item_my_rv_layout.xml" value="0.2484375" />
+        <entry key="..\:/AStudyData/AndroidStudioProjects/ShoppingMall/app/src/main/res/layout/item_order__layout.xml" value="0.4" />
+        <entry key="..\:/AStudyData/AndroidStudioProjects/ShoppingMall/app/src/main/res/layout/item_recommend_goods_layout.xml" value="0.536" />
+        <entry key="..\:/AStudyData/AndroidStudioProjects/ShoppingMall/app/src/main/res/layout/item_search_layout.xml" value="0.24947916666666667" />
+        <entry key="..\:/AStudyData/AndroidStudioProjects/ShoppingMall/app/src/main/res/layout/item_skin_layout.xml" value="0.3543046357615894" />
+        <entry key="..\:/AStudyData/AndroidStudioProjects/ShoppingMall/app/src/main/res/layout/item_submit_order_rv_layout.xml" value="0.24947916666666667" />
+        <entry key="..\:/AStudyData/AndroidStudioProjects/ShoppingMall/app/src/main/res/layout/layout_empty.xml" value="0.14583333333333334" />
+        <entry key="..\:/AStudyData/AndroidStudioProjects/ShoppingMall/app/src/main/res/layout/layout_error.xml" value="0.24947916666666667" />
+        <entry key="..\:/AStudyData/AndroidStudioProjects/ShoppingMall/app/src/main/res/layout/layout_loading.xml" value="0.24947916666666667" />
+        <entry key="..\:/AStudyData/AndroidStudioProjects/ShoppingMall/app/src/main/res/layout/layout_timeout.xml" value="0.24947916666666667" />
+        <entry key="..\:/AStudyData/AndroidStudioProjects/ShoppingMall/app/src/main/res/layout/title_layout.xml" value="0.2484375" />
+        <entry key="..\:/AStudyData/AndroidStudioProjects/ShoppingMall/app/src/main/res/menu/main_home_menu.xml" value="0.24947916666666667" />
+        <entry key="..\:/AStudyData/AndroidStudioProjects/ShoppingMall/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1555" />
+        <entry key="..\:/AStudyData/AndroidStudioProjects/ShowDoc/app/src/main/res/layout/activity_main.xml" value="0.24947916666666667" />
+        <entry key="..\:/AStudyData/AndroidStudioProjects/ShowDoc/app/src/main/res/layout/fragment_guide_pages.xml" value="0.23489583333333333" />
+        <entry key="..\:/AStudyData/AndroidStudioProjects/ShowDoc/app/src/main/res/layout/layout_empty.xml" value="0.24947916666666667" />
+        <entry key="..\:/AStudyData/AndroidStudioProjects/ShowDoc/app/src/main/res/layout/layout_error.xml" value="0.24947916666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

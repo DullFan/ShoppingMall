@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.AppCompatCheckBox
+            android:id="@+id/item_car_rv_check"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="@+id/item_car_rv_image"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/item_car_rv_image" />
+
+        <androidx.constraintlayout.utils.widget.ImageFilterView
+            android:id="@+id/item_car_rv_image"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_marginStart="-10dp"
+            android:src="@color/black"
+            app:layout_constraintLeft_toRightOf="@id/item_car_rv_check"
+            app:layout_constraintTop_toTopOf="parent"
+            app:round="5dp" />
+
+        <TextView
+            android:id="@+id/item_car_rv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:text="阿松等哈说"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            app:layout_constraintLeft_toRightOf="@+id/item_car_rv_image"
+            app:layout_constraintTop_toTopOf="@id/item_car_rv_image" />
+
+        <TextView
+            android:id="@+id/item_car_rv_symbol"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:text="￥"
+            android:textColor="@color/orange"
+            app:layout_constraintLeft_toRightOf="@id/item_car_rv_image"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_goneMarginStart="5dp" />
+
+        <TextView
+            android:id="@+id/item_car_rv_money"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="123123"
+            android:textColor="@color/orange"
+            app:layout_constraintBottom_toBottomOf="@+id/item_car_rv_symbol"
+            app:layout_constraintLeft_toRightOf="@+id/item_car_rv_symbol"
+            app:layout_constraintTop_toTopOf="@id/item_car_rv_symbol" />
+
+        <LinearLayout
+            android:background="@drawable/car_frame_text_background"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:orientation="horizontal"
+            android:layout_marginStart="5dp"
+            app:layout_constraintBottom_toBottomOf="@id/item_car_rv_image"
+            app:layout_constraintLeft_toRightOf="@id/item_car_rv_image">
+
+            <TextView
+                android:id="@+id/car_cut"
+                android:layout_width="25dp"
+                android:layout_height="20sp"
+                android:gravity="center"
+                android:text="-" />
+
+            <View
+                android:background="@color/grey_color"
+                android:layout_width="1dp"
+                android:layout_height="20dp" />
+
+
+            <TextView
+                android:id="@+id/car_number"
+                android:layout_width="30dp"
+                android:layout_height="20dp"
+                android:gravity="center"
+                android:text="1"
+                android:textColor="@color/black" />
+
+            <View
+                android:background="@color/grey_color"
+                android:layout_width="1dp"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:id="@+id/car_add"
+                android:layout_width="25dp"
+                android:layout_height="20dp"
+                android:layout_marginStart="5dp"
+                android:gravity="center"
+                android:text="+" />
+
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

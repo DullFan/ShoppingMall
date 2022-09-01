@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+    </data>
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.utils.widget.ImageFilterView
+            android:id="@+id/dialog_add_car_image"
+            android:layout_width="60dp"
+            android:layout_height="75dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/rv_img7"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:round="5dp" />
+
+        <TextView
+            android:id="@+id/dialog_add_car_symbol"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:text="￥"
+            android:textColor="@color/orange"
+            app:layout_constraintLeft_toRightOf="@+id/dialog_add_car_image"
+            app:layout_constraintTop_toTopOf="@+id/dialog_add_car_image"
+            app:layout_goneMarginStart="5dp" />
+
+        <TextView
+            android:id="@+id/dialog_add_car_money"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="123123"
+            android:textColor="@color/orange"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/dialog_add_car_symbol"
+            app:layout_constraintLeft_toRightOf="@id/dialog_add_car_symbol"
+            app:layout_constraintTop_toTopOf="@id/dialog_add_car_symbol" />
+
+        <androidx.constraintlayout.utils.widget.ImageFilterView
+            android:id="@+id/dialog_add_car_cancel"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/dialog_closure_image"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:tint="#8A000000" />
+
+        <TextView
+            android:id="@+id/dialog_add_car_text01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:text="更多版本"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/dialog_add_car_image" />
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/dialog_add_car_content_card"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="5dp"
+            app:cardBackgroundColor="#1AD6D3D3"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="0dp"
+            app:layout_constraintTop_toBottomOf="@id/dialog_add_car_text01">
+
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/dialog_add_car_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/dialog_frame_text_background"
+                    android:padding="7dp"
+                    android:text="文本文本文本"
+                    android:textColor="@color/orange" />
+
+                <TextView
+                    android:id="@+id/dialog_add_car_symbol2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="￥"
+                    android:textColor="@color/orange"
+                    app:layout_constraintRight_toLeftOf="@+id/dialog_add_car_money2"
+                    app:layout_constraintTop_toTopOf="@+id/dialog_add_car_content"
+                    app:layout_constraintBottom_toBottomOf="@id/dialog_add_car_content"/>
+
+                <TextView
+                    android:id="@+id/dialog_add_car_money2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="123123"
+                    android:textColor="@color/orange"
+                    app:layout_constraintBottom_toBottomOf="@+id/dialog_add_car_content"
+                    app:layout_constraintRight_toRightOf="parent"
+                    android:layout_marginEnd="5dp"
+                    app:layout_constraintTop_toTopOf="@id/dialog_add_car_content" />
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.cardview.widget.CardView>
+
+
+        <View
+            android:id="@+id/dialog_add_car_line"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="10dp"
+            android:background="#5AD6D3D3"
+            app:layout_constraintTop_toBottomOf="@+id/dialog_add_car_content_card" />
+
+
+        <TextView
+            android:id="@+id/dialog_add_car_text02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:text="购买数量"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/dialog_add_car_line" />
+
+        <TextView
+            android:id="@+id/dialog_add_car_no"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="3dp"
+            android:text="有货"
+            android:textSize="11sp"
+            app:layout_constraintBottom_toBottomOf="@+id/dialog_add_car_text02"
+            app:layout_constraintLeft_toRightOf="@id/dialog_add_car_text02"
+            app:layout_constraintTop_toTopOf="@id/dialog_add_car_text02" />
+
+
+        <TextView
+            android:id="@+id/dialog_add_car_add"
+            android:layout_width="30dp"
+            android:layout_height="25dp"
+            android:layout_marginEnd="10dp"
+            android:background="@color/add_grey"
+            android:gravity="center"
+            android:text="+"
+            app:layout_constraintBottom_toBottomOf="@+id/dialog_add_car_text02"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="@id/dialog_add_car_text02" />
+
+
+        <TextView
+            android:id="@+id/dialog_add_car_number"
+            android:layout_width="35dp"
+            android:layout_height="25dp"
+            android:layout_marginHorizontal="2dp"
+            android:background="@color/add_grey"
+            android:gravity="center"
+            android:text="1"
+            android:textColor="@color/black"
+            app:layout_constraintBottom_toBottomOf="@+id/dialog_add_car_text02"
+            app:layout_constraintRight_toLeftOf="@+id/dialog_add_car_add"
+            app:layout_constraintTop_toTopOf="@id/dialog_add_car_text02" />
+
+
+        <TextView
+            android:id="@+id/dialog_add_car_cut"
+            android:layout_width="30dp"
+            android:layout_height="25dp"
+            android:layout_marginHorizontal="2dp"
+            android:background="@color/cut_grey"
+            android:gravity="center"
+            android:text="-"
+            app:layout_constraintBottom_toBottomOf="@+id/dialog_add_car_number"
+            app:layout_constraintRight_toLeftOf="@+id/dialog_add_car_number"
+            app:layout_constraintTop_toTopOf="@id/dialog_add_car_number" />
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="match_parent"
+            android:id="@+id/dialog_add_car_button"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="300dp"
+            android:layout_marginBottom="5dp"
+            android:backgroundTint="@color/orange"
+            android:insetLeft="0dp"
+            android:insetTop="0dp"
+            android:insetRight="0dp"
+            android:insetBottom="0dp"
+            android:text="确定"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            app:cornerRadius="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/dialog_add_car_text02" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

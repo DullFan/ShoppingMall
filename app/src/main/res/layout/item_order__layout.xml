@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+    </data>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="0dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#f6f7f9">
+
+            <View
+                android:id="@+id/order_view01"
+                android:layout_width="50dp"
+                android:layout_height="0dp"
+                android:background="@color/purple_700"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+            <TextView
+                android:id="@+id/order_date_text"
+                android:layout_width="110dp"
+                android:layout_height="170dp"
+                android:gravity="center"
+                android:rotation="270"
+                android:text="2022年8月29日"
+                android:textColor="@color/white"
+                app:layout_constraintBottom_toBottomOf="@+id/order_view01"
+                app:layout_constraintLeft_toLeftOf="@+id/order_view01"
+                app:layout_constraintRight_toRightOf="@+id/order_view01"
+                app:layout_constraintTop_toTopOf="@+id/order_view01" />
+
+            <TextView
+                android:id="@+id/order_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="13dp"
+                android:text="订单编号:20202020202020"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                app:layout_constraintLeft_toRightOf="@+id/order_view01"
+                app:layout_constraintTop_toTopOf="@id/order_view01" />
+
+            <TextView
+                android:id="@+id/order_start_address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="13dp"
+                android:text="天津"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                app:layout_constraintLeft_toRightOf="@+id/order_view01"
+                app:layout_constraintTop_toBottomOf="@id/order_id" />
+
+
+            <TextView
+                android:id="@+id/order_start_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:text="2021年3月16日"
+                android:textSize="13dp"
+                app:layout_constraintLeft_toRightOf="@+id/order_view01"
+                app:layout_constraintTop_toBottomOf="@id/order_start_address" />
+
+
+            <TextView
+                android:id="@+id/order_end_address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:text="北京"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/order_id" />
+
+
+            <TextView
+                android:id="@+id/order_end_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:text="2021年3月16日"
+                android:textSize="13dp"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/order_end_address" />
+
+
+            <LinearLayout
+                android:id="@+id/order_layout01"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginTop="13dp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                app:layout_constraintLeft_toRightOf="@id/order_view01"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/order_start_date">
+
+                <androidx.constraintlayout.utils.widget.ImageFilterView
+                    android:id="@+id/order_round01"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:background="@drawable/order_select_frame_text_background"
+                    app:roundPercent="1" />
+
+                <View
+                    android:id="@+id/order_line01"
+                    android:layout_width="0dp"
+                    android:layout_height="1dp"
+                    android:layout_weight="1"
+                    android:background="@color/black" />
+
+                <androidx.constraintlayout.utils.widget.ImageFilterView
+                    android:id="@+id/order_round02"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/order_car"
+                    app:roundPercent="1" />
+
+                <View
+                    android:id="@+id/order_line02"
+                    android:layout_width="0dp"
+                    android:layout_height="1dp"
+                    android:layout_weight="1"
+                    android:background="@color/order_grey" />
+
+                <androidx.constraintlayout.utils.widget.ImageFilterView
+                    android:id="@+id/order_round03"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:background="@drawable/order_frame_text_background"
+                    app:roundPercent="1" />
+
+                <View
+                    android:id="@+id/order_line03"
+                    android:layout_width="0dp"
+                    android:layout_height="1dp"
+                    android:layout_weight="1"
+                    android:background="@color/order_grey" />
+
+
+                <androidx.constraintlayout.utils.widget.ImageFilterView
+                    android:id="@+id/order_round04"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:background="@drawable/order_frame_text_background"
+                    app:roundPercent="1" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/order_purpose"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="13dp"
+                android:text="前往北京"
+                android:textSize="14sp"
+                app:layout_constraintLeft_toRightOf="@id/order_view01"
+                app:layout_constraintTop_toBottomOf="@+id/order_layout01" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+</layout>

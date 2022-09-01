@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:paddingHorizontal="10dp"
+        android:layout_height="wrap_content">
+
+        <androidx.constraintlayout.utils.widget.ImageFilterView
+            android:id="@+id/item_submit_order_image"
+            android:layout_width="75dp"
+            android:scaleType="centerCrop"
+            android:layout_height="75dp"
+            android:src="@color/black"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:round="5dp" />
+
+        <TextView
+            android:id="@+id/item_submit_order_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:text="阿松等哈说"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            app:layout_constraintLeft_toRightOf="@+id/item_submit_order_image"
+            app:layout_constraintTop_toTopOf="@id/item_submit_order_image" />
+
+        <TextView
+            android:id="@+id/item_submit_order_symbol"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:text="￥"
+            android:textColor="@color/orange"
+            app:layout_constraintLeft_toRightOf="@id/item_submit_order_image"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_goneMarginStart="5dp" />
+
+        <TextView
+            android:id="@+id/item_submit_order_money"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="123123"
+            android:textColor="@color/orange"
+            app:layout_constraintBottom_toBottomOf="@+id/item_submit_order_symbol"
+            app:layout_constraintLeft_toRightOf="@+id/item_submit_order_symbol"
+            app:layout_constraintTop_toTopOf="@id/item_submit_order_symbol" />
+
+        <TextView
+            android:id="@+id/item_submit_order_number"
+            android:layout_width="30dp"
+            android:layout_height="20dp"
+            app:layout_constraintBottom_toBottomOf="@id/item_submit_order_image"
+            app:layout_constraintLeft_toRightOf="@id/item_submit_order_image"
+            android:gravity="center"
+            android:text="1"
+            android:textColor="@color/black" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
